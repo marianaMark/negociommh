@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal"
+
+    android:padding="8dp"
+    android:gravity="center_vertical">
+
+    <!-- TextView para mostrar los datos del cliente -->
+    <TextView
+        android:id="@+id/tvCliente"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:textColor="#000000"
+        android:textSize="16sp" />
+
+    <!-- Botón para borrar cliente -->
+    <Button
+        android:id="@+id/btnBorrar"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Borrar"
+        android:backgroundTint="#FF0000"
+        android:textColor="#FFFFFF"
+        android:padding="4dp"
+        android:layout_marginStart="8dp" />
+
+</LinearLayout>
